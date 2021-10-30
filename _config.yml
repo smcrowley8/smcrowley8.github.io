@@ -68,7 +68,7 @@ content:
           "isn't it supposed to say something relevant back to me for it to be called a chat bot"
         description: |
           very basic chat bot. will be trained off of a different dataset with different tokenization and lemonizing logic.
-      - layout: right
+      - layout: left
         title: Some random math stuff
         link: github.com/smcrowley8/NumberTheory
         # link_text: Project Website
