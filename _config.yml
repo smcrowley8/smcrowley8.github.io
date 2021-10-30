@@ -16,13 +16,13 @@ website: www.github.com/smcrowley8/smcrowley8.github.io
 darkmode: false
 
 # Social links
-twitter_username: facespics
+#twitter_username: facespics
 github_username:  smcrowley8
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-#instagram_username: jameswgrant
+instagram_username: sean_crowley08
 #linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -31,10 +31,10 @@ github_username:  smcrowley8
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
