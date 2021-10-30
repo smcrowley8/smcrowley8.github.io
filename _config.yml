@@ -59,7 +59,7 @@ content:
     content:
       - layout: top-middle
         title: a pretty awful chatbot
-        link: https://github.com/smcrowley8/DataSci/tree/main/ChatBot
+        link: github.com/smcrowley8/DataSci/tree/main/ChatBot
         additional_links:
           -title: smcrowley8/DataSci
           icon: fab fa-github
@@ -68,6 +68,7 @@ content:
           "isn't it supposed to say something relevant back to me for it to be called a chat bot"
         description: |
           very basic chat bot. will be trained off of a different dataset with different tokenization and lemonizing logic.
+
         title: Some random math stuff
         link: github.com/smcrowley8/NumberTheory
         # link_text: Project Website
