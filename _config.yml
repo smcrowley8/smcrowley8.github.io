@@ -80,9 +80,22 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          "idk what im looking at.""
+          "idk what im looking at."
         description: | # this will include new lines to allow paragraphs
           I started this as a way if learning <mark>LaTex</mark> and I have hopes of it growing into a formal setup for any proofs I do. 
+      - layout: left
+        title: some pretty bad speech analysis
+        link: https://github.com/smcrowley8/DataSci/blob/main/simpleSpeechEmotionalRecognition/recognize%20emotion%20from%20speech%20audio.ipynb
+        # link_text: Project Website
+        additional_links:
+          - title:  smcrowley8/DataSci
+            icon: fab fa-github
+            url: https://github.com/smcrowley8/DataSci/blob/main/simpleSpeechEmotionalRecognition/recognize%20emotion%20from%20speech%20audio.ipynb
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          "wheres the analysis"
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
