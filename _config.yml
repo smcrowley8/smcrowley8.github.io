@@ -123,9 +123,9 @@ content:
         sub_title: Software test Engineer
         caption: September 2021 - Present
         quote: >
-          "Data should be story driven"
+          "Data Storytelling can make the world a better place. We want to see our technology used for good because we know it can make a tremendous social impact."
         description: | # this will include new lines to allow paragraphs
-            Worked with an amazing team on testing Narrative Science's auto-generative narratives from data.
+            Worked with an amazing team on testing Narrative Science's auto-generative, data-driven stories.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
