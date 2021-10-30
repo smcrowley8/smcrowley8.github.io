@@ -72,6 +72,7 @@ content:
           "isn't it supposed to say something relevant back to me for it to be called a chat bot"
         description: |
           very basic chat bot with <mark>python</mark>. will be trained off of a different dataset with different tokenization and lemonizing logic.
+          
           UI made with <mark>tkinter</mark>, <mark>nltk</mark> and <mark>keras</mark> utilized for nlp and model creation/training.
       - layout: left
         title: Some random math stuff
@@ -140,6 +141,7 @@ content:
         sub_title: B.S. Computer Science, Applied Mathematics
         quote: |
           "The BS in Computer Security Program has led to ESU's designation as a National Center of Academic Excellence in Cyber Defense Education by the US Department of Homeland Security and the NSA"  
+          
           "Multivariate calculus was the class that began to open my mind to viewing math as a language rather than a series of calculations." 
 
   - title: A Little More About Me
