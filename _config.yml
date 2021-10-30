@@ -46,12 +46,12 @@ instagram_username: sean_crowley08
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: About Me
+# about_title: About Me
 about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
   lorem ipsem lorem ispem
 
-  Skills:
+  Tech skills:
   - <mark>python</mark>
   - <mark>c++</mark>
   - <mark>git</mark>
