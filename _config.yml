@@ -47,7 +47,7 @@ instagram_username: sean_crowley08
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
   lorem ipsem lorem ispem
 
@@ -67,7 +67,8 @@ content:
         quote: >
           "isn't it supposed to say something relevant back to me for it to be called a chat bot"
         description: |
-          very basic chat bot. will be trained off of a different dataset with different tokenization and lemonizing logic.
+          very basic chat bot with <mark>python</mark>. will be trained off of a different dataset with different tokenization and lemonizing logic.
+          UI made with <mark>tkinter</mark>, <mark>nltk</mark> and <mark>keras</mark> utilized for nlp and model creation/training.
       - layout: left
         title: Some random math stuff
         link: github.com/smcrowley8/NumberTheory
@@ -82,7 +83,7 @@ content:
         quote: >
           "idk what im looking at."
         description: | # this will include new lines to allow paragraphs
-          I started this as a way if learning <mark>LaTex</mark> and I have hopes of it growing into a formal setup for any proofs I do. 
+          I started this as a way of learning <mark>LaTex</mark> and I have hopes of it growing into a formal setup for any proofs I do. 
       - layout: left
         title: some pretty bad speech analysis
         link: https://github.com/smcrowley8/DataSci/blob/main/simpleSpeechEmotionalRecognition/recognize%20emotion%20from%20speech%20audio.ipynb
@@ -96,6 +97,8 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           "wheres the analysis"
+        description: |
+          I utilized <mark>python</mark> and mainly the library <mark>librosa</mark>. 
       - layout: left
         title: bad game
         link: https://github.com/smcrowley8/esu-GameJam
@@ -130,19 +133,20 @@ content:
       - layout: left
         title: East Stroudsburg University
         caption: 2017 - 2021
-        sub_title: BSc Computer Science, Applied Mathematics
-        quote: >
+        sub_title: B.S. Computer Science, Applied Mathematics
+        quote: |
           "The BS in Computer Security Program has led to ESU's designation as a National Center of Academic Excellence in Cyber Defense Education by the US Department of Homeland Security and the NSA"  
-        description: | # this will include new lines to allow paragraphs
-          It be what it be
+          "Multivariate calculus was the class that began to open my mind to viewing math as a language rather than a series of calculations." 
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      Alongside my interests in software engineering, some of my other interests and hobbies are:
       - Rock climbing
+      - Making games
       - Gaming
       - Chess
+      - Number theory
 
 # Footer
 footer_show_references: true
