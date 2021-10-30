@@ -10,23 +10,23 @@ version: 2
 name: Sean Crowley
 title: Software Engineer
 email: smcrowley8@gmail.com
-website: www.github.com/smcrowley8/smcrowley8.github.io
+website: smcrowley8.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-#twitter_username: facespics
+#twitter_username: 
 github_username:  smcrowley8
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 instagram_username: sean_crowley08
-#linkedin_username: jameswgrant
+#linkedin_username: 
 # xing_username: jekyll
 # pinterest_username: jekyll
-#youtube_username: globalmtb
+#youtube_username: 
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -46,12 +46,16 @@ instagram_username: sean_crowley08
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
   lorem ipsem lorem ispem
 
-  I am most skilled in: <mark>python</mark> and <mark>c++</mark>
+  Skills:
+  - <mark>python</mark>
+  - <mark>c++</mark>
+  - <mark>git</mark>
+  - <mark>firebase</mark>
 
 content:
   - title: Projects # Title for the section
