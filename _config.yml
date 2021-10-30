@@ -96,6 +96,19 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           "wheres the analysis"
+      - layout: left
+        title: bad game
+        link: https://github.com/smcrowley8/esu-GameJam
+        # link_text: Project Website
+        additional_links:
+          - title:  smcrowley8/esu-GameJam
+            icon: fab fa-github
+            url: https://github.com/smcrowley8/esu-GameJam
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          "the music is too loud"
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
