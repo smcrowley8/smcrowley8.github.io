@@ -49,7 +49,7 @@ instagram_username: sean_crowley08
 # about_title: About Me
 about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
-  lorem ipsem lorem ispem
+  [insert personal statement/anything about me]
 
   Tech skills:
   - <mark>python</mark>
@@ -91,12 +91,12 @@ content:
           I started this as a way of learning <mark>LaTex</mark> and I have hopes of it growing into a formal setup for any proofs I do. 
       - layout: left
         title: some pretty bad speech analysis
-        link: https://github.com/smcrowley8/DataSci/blob/main/simpleSpeechEmotionalRecognition/recognize%20emotion%20from%20speech%20audio.ipynb
+        link: https://github.com/smcrowley8/DataSci/tree/main/simpleSpeechEmotionalRecognition
         # link_text: Project Website
         additional_links:
           - title:  smcrowley8/DataSci
             icon: fab fa-github
-            url: https://github.com/smcrowley8/DataSci/blob/main/simpleSpeechEmotionalRecognition/recognize%20emotion%20from%20speech%20audio.ipynb
+            url: https://github.com/smcrowley8/DataSci/tree/main/simpleSpeechEmotionalRecognition
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
