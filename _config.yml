@@ -141,11 +141,7 @@ content:
         title: East Stroudsburg University
         caption: 2017 - 2021
         sub_title: B.S. Computer Science, Applied Mathematics
-        quote: |
-          "The BS in Computer Security Program has led to ESU's designation as a National Center of Academic Excellence in Cyber Defense Education by the US Department of Homeland Security and the NSA"  
-          
-          "Multivariate calculus was the class that began to open my mind to viewing math as a language rather than a series of calculations." 
-
+        
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
