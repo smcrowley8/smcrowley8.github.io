@@ -62,8 +62,8 @@ content:
     content:
       - layout: left
         title: ChatBot
-        link: ChatBot
-        link_text: github.com/smcrowley8/DataSci/tree/main/ChatBot
+        link: github.com/smcrowley8/DataSci/tree/main/ChatBot
+        link_text: link
         additional_links:
           -title: smcrowley8/DataSci
           icon: fab fa-github
