@@ -75,7 +75,7 @@ content:
           
           UI made with <mark>tkinter</mark>.
       - layout: left
-        title: Some random math stuff
+        title: Some Number Theory
         link: github.com/smcrowley8/NumberTheory
         link_text: link
         additional_links:
@@ -90,7 +90,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           I started this as a way of learning <mark>LaTex</mark> and I have hopes of it growing into a formal setup for any proofs I do. 
       - layout: left
-        title: speech analysis
+        title: Speech Analysis
         link: https://github.com/smcrowley8/DataSci/tree/main/simpleSpeechEmotionalRecognition
         link_text: git
         additional_links:
