@@ -62,8 +62,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: a pretty awful chatbot
-        link: github.com/smcrowley8/DataSci/tree/main/ChatBot
+        title: ChatBot
+        link: ChatBot
         additional_links:
           -title: smcrowley8/DataSci
           icon: fab fa-github
