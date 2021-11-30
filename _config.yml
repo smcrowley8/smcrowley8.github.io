@@ -66,8 +66,8 @@ content:
         link_text: link
         additional_links:
           - title: smcrowley8/DataSci
-          icon: fab fa-github
-          url: github.com/smcrowley8/DataSci/tree/main/ChatBot
+            icon: fab fa-github
+            url: github.com/smcrowley8/DataSci/tree/main/ChatBot
         quote: >
           "isn't it supposed to say something relevant back to me for it to be called a chat bot"
         description: |
@@ -75,7 +75,7 @@ content:
           
           UI made with <mark>tkinter</mark>.
       - layout: left
-        title: Some Number Theory
+        title: Some Math
         link: github.com/smcrowley8/NumberTheory
         link_text: link
         additional_links:
@@ -141,7 +141,7 @@ content:
         title: East Stroudsburg University
         caption: 2017 - 2021
         sub_title: B.S. Computer Science, Applied Mathematics
-
+        
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
