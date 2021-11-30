@@ -65,7 +65,7 @@ content:
         link: github.com/smcrowley8/DataSci/tree/main/ChatBot
         link_text: link
         additional_links:
-          -title: smcrowley8/DataSci
+          - title: smcrowley8/DataSci
           icon: fab fa-github
           url: github.com/smcrowley8/DataSci/tree/main/ChatBot
         quote: >
@@ -141,7 +141,7 @@ content:
         title: East Stroudsburg University
         caption: 2017 - 2021
         sub_title: B.S. Computer Science, Applied Mathematics
-        
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
