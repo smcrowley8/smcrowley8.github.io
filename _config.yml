@@ -49,13 +49,12 @@ instagram_username: sean_crowley08
 # about_title: About Me
 about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
-  [insert personal statement/anything about me]
+  
 
   Tech skills:
-  - <mark>python</mark>
-  - <mark>c++</mark>
-  - <mark>git</mark>
-  - <mark>firebase</mark>
+  - <mark>python</mark>           - <mark>c++</mark>
+  - <mark>git</mark>              - <mark>AWS</mark>
+  - <mark>firebase</mark>         - <mark>docker</mark>
 
 content:
   - title: Projects # Title for the section
@@ -64,6 +63,7 @@ content:
       - layout: left
         title: ChatBot
         link: ChatBot
+        link_text: github.com/smcrowley8/DataSci/tree/main/ChatBot
         additional_links:
           -title: smcrowley8/DataSci
           icon: fab fa-github
@@ -71,13 +71,13 @@ content:
         quote: >
           "isn't it supposed to say something relevant back to me for it to be called a chat bot"
         description: |
-          very basic chat bot with <mark>python</mark>. will be trained off of a different dataset with different tokenization and lemonizing logic.
+          chat bot with <mark>python</mark>.  <mark>nltk</mark> and <mark>keras</mark> utilized for nlp and model creation/training.
           
-          UI made with <mark>tkinter</mark>, <mark>nltk</mark> and <mark>keras</mark> utilized for nlp and model creation/training.
+          UI made with <mark>tkinter</mark>.
       - layout: left
         title: Some random math stuff
         link: github.com/smcrowley8/NumberTheory
-        # link_text: Project Website
+        link_text: link
         additional_links:
           - title:  smcrowley8/NumberTheory
             icon: fab fa-github
@@ -90,9 +90,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           I started this as a way of learning <mark>LaTex</mark> and I have hopes of it growing into a formal setup for any proofs I do. 
       - layout: left
-        title: some pretty bad speech analysis
+        title: speech analysis
         link: https://github.com/smcrowley8/DataSci/tree/main/simpleSpeechEmotionalRecognition
-        # link_text: Project Website
+        link_text: git
         additional_links:
           - title:  smcrowley8/DataSci
             icon: fab fa-github
@@ -105,9 +105,9 @@ content:
         description: |
           I utilized <mark>python</mark> and mainly the library <mark>librosa</mark>. 
       - layout: left
-        title: bad game
+        title: ESU Game Jam with pygame
         link: https://github.com/smcrowley8/esu-GameJam
-        # link_text: Project Website
+        link_text: link
         additional_links:
           - title:  smcrowley8/esu-GameJam
             icon: fab fa-github
@@ -130,7 +130,9 @@ content:
         quote: >
           "Data Storytelling can make the world a better place. We want to see our technology used for good because we know it can make a tremendous social impact."
         description: | # this will include new lines to allow paragraphs
-            Worked with an amazing team on testing Narrative Science's auto-generative, data-driven stories.
+            Worked with an amazing team on keeping our automated e2e, integration, and contract tests up to date with the products developement. 
+            
+            Used <mark>Gherkin</mark> with python to make writing tests easier. Worked with <mark>AWS</mark> and <mark>docker</mark> for integrating and testing changes in a cloud based system.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
