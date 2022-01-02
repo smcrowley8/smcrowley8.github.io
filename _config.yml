@@ -62,61 +62,26 @@ content:
     content:
       - layout: left
         title: ChatBot
-        link: github.com/smcrowley8/DataSci/tree/main/ChatBot
+        link: https://github.com/smcrowley8/DataSci/blob/main/ChatBot/ChatBot_howTo.ipynb
         link_text: link
         additional_links:
           - title: smcrowley8/DataSci
             icon: fab fa-github
-            url: github.com/smcrowley8/DataSci/tree/main/ChatBot
-        quote: >
-          "isn't it supposed to say something relevant back to me for it to be called a chat bot"
+            url: https://github.com/smcrowley8/DataSci/tree/main/ChatBot
         description: |
           chat bot with <mark>python</mark>.  <mark>nltk</mark> and <mark>keras</mark> utilized for nlp and model creation/training.
           
           UI made with <mark>tkinter</mark>.
-      - layout: left
-        title: Some Math
-        link: github.com/smcrowley8/NumberTheory
-        link_text: link
-        additional_links:
-          - title:  smcrowley8/NumberTheory
-            icon: fab fa-github
-            url: github.com/smcrowley8/NumberTheory
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          "idk what im looking at."
-        description: | # this will include new lines to allow paragraphs
-          I started this as a way of learning <mark>LaTex</mark> and I have hopes of it growing into a formal setup for any proofs I do. 
-      - layout: left
+       - layout: left
         title: Speech Analysis
-        link: https://github.com/smcrowley8/DataSci/tree/main/simpleSpeechEmotionalRecognition
-        link_text: git
+        link: https://github.com/smcrowley8/DataSci/blob/main/simpleSpeechEmotionalRecognition/recognize%20emotion%20from%20speech%20audio.ipynb
+        link_text: link
         additional_links:
           - title:  smcrowley8/DataSci
             icon: fab fa-github
             url: https://github.com/smcrowley8/DataSci/tree/main/simpleSpeechEmotionalRecognition
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          "wheres the analysis"
         description: |
           I utilized <mark>python</mark> and mainly the library <mark>librosa</mark>. 
-      - layout: left
-        title: ESU Game Jam with pygame
-        link: https://github.com/smcrowley8/esu-GameJam
-        link_text: link
-        additional_links:
-          - title:  smcrowley8/esu-GameJam
-            icon: fab fa-github
-            url: https://github.com/smcrowley8/esu-GameJam
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          "the music is too loud"
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
