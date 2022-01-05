@@ -90,6 +90,7 @@ content:
             url: https://github.com/smcrowley8/myAES
         description: |
           Python package utilizing <mark>poetry</mark> for package management and click for CLI entrypoint.
+          Repo utilizes circleCI for continuous developement. final CLI package is in progress.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
