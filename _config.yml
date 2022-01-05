@@ -60,7 +60,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: center
         title: ChatBot
         link: https://github.com/smcrowley8/DataSci/blob/main/ChatBot/ChatBot_howTo.ipynb
         link_text: link
@@ -72,7 +72,7 @@ content:
           chat bot with <mark>python</mark>.  <mark>nltk</mark> and <mark>keras</mark> utilized for nlp and model creation/training.
           
           UI made with <mark>tkinter</mark>.
-       - layout: left
+       - layout: center
         title: Speech Analysis
         link: https://github.com/smcrowley8/DataSci/blob/main/simpleSpeechEmotionalRecognition/recognize%20emotion%20from%20speech%20audio.ipynb
         link_text: link
@@ -82,7 +82,14 @@ content:
             url: https://github.com/smcrowley8/DataSci/tree/main/simpleSpeechEmotionalRecognition
         description: |
           I utilized <mark>python</mark> and mainly the library <mark>librosa</mark>. 
-
+       - layout: center
+        title: AES project
+        additional_links: 
+          - title: smcrowley8/myAES
+            icon: fab fa-github
+            url: https://github.com/smcrowley8/myAES
+        description: |
+          Python package utilizing <mark>poetry</mark> for package management and click for CLI entrypoint.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
