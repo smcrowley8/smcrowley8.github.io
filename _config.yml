@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/modern-resume-theme
+repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -12,20 +12,20 @@ email: smcrowley8@gmail.com
 website: smcrowley8.github.io
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
-#twitter_username: 
+# twitter_username: 
 github_username:  smcrowley8
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-#instagram_username: sean_crowley08
-#linkedin_username: 
+# instagram_username: 
+# linkedin_username: 
 # xing_username: jekyll
 # pinterest_username: jekyll
-#youtube_username: 
+# youtube_username: 
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -48,19 +48,24 @@ github_username:  smcrowley8
 # about_title: About Me
 about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
-  
+  Hi, my names Sean. I'm a software engineer with most of my industry experience surrounding software test engineering.
 
-  Tech skills:
-  - <mark>python</mark>           - <mark>c++</mark>
-  - <mark>git</mark>              - <mark>AWS</mark>
-  - <mark>firebase</mark>         - <mark>docker</mark>
+  I am most skilled in: <mark>Continuous Integration</mark> 
+
+  My other tech skills include
+  - <mark>python</mark>           
+  - <mark>c++</mark>
+  - <mark>git</mark>              
+  - <mark>AWS</mark>
+  - <mark>firebase</mark>         
+  - <mark>docker</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: center
-        title: ChatBot
+      - layout: top-middle
+        title: Chat Bot
         link: https://github.com/smcrowley8/DataSci/blob/main/ChatBot/ChatBot_howTo.ipynb
         link_text: link
         additional_links:
@@ -71,7 +76,7 @@ content:
           chat bot with <mark>python</mark>.  <mark>nltk</mark> and <mark>keras</mark> utilized for nlp and model creation/training.
           
           UI made with <mark>tkinter</mark>.
-       - layout: center
+     - layout: top-middle
         title: Speech Analysis
         link: https://github.com/smcrowley8/DataSci/blob/main/simpleSpeechEmotionalRecognition/recognize%20emotion%20from%20speech%20audio.ipynb
         link_text: link
@@ -81,7 +86,7 @@ content:
             url: https://github.com/smcrowley8/DataSci/tree/main/simpleSpeechEmotionalRecognition
         description: |
           I utilized <mark>python</mark> and mainly the library <mark>librosa</mark>. 
-       - layout: center
+       - layout: top-middle
         title: AES project
         additional_links: 
           - title: smcrowley8/myAES
@@ -117,19 +122,21 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in software engineering, some of my other interests and hobbies are:
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - Rock climbing
-      - Making games
       - Gaming
-      - Chess
-      - Number theory
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: References on request 
 
 # Build settings
-remote_theme: sproogen/modern-resume-theme
+remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
