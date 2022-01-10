@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Sean Crowley
 title: Software Engineer
-email: smcrowley8@gmail.com
+#email: 
 website: smcrowley8.github.io
 
 # Dark Mode (true/false/never)
@@ -117,7 +117,7 @@ content:
       - layout: left
         title: East Stroudsburg University
         caption: 2017 - 2021
-        sub_title: B.S. Computer Science, Applied Mathematics
+        sub_title: B.S. Computer Science, B.S. Applied Mathematics
         
 
 # Footer
