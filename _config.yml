@@ -73,7 +73,7 @@ content:
             icon: fab fa-github
             url: https://github.com/smcrowley8/DataSci/tree/main/ChatBot
         description: |
-          chat bot with <mark>python</mark>.  <mark>nltk</mark> and <mark>keras</mark> utilized for nlp and model creation/training.
+          Chat bot made with <mark>python</mark>. Libraries: <mark>nltk</mark> and <mark>keras</mark> utilized for nlp and model creation/training.
           
           UI made with <mark>tkinter</mark>.
       - layout: top-middle
@@ -85,7 +85,7 @@ content:
             icon: fab fa-github
             url: https://github.com/smcrowley8/DataSci/tree/main/simpleSpeechEmotionalRecognition
         description: |
-          Utilized <mark>python</mark> and mainly the library <mark>librosa</mark>. 
+          Utilized <mark>python</mark> and the library <mark>librosa</mark>. 
       - layout: top-middle
         title: AES project
         additional_links: 
@@ -94,6 +94,7 @@ content:
             url: https://github.com/smcrowley8/myAES
         description: |
           Python package utilizing <mark>poetry</mark> for package management and <mark>click</mark> for <mark>CLI</mark> entrypoint.
+          
           Repo utilizes <mark>circleCI</mark> with <mark>GithubActions</mark> for continuous integration. final CLI package is in progress.
       - layout: top-middle
         title: Angular PWA
@@ -101,7 +102,7 @@ content:
         link: https://admin-lt-pwa.web.app
         additional_links: 
         description: |
-          <mark>Progressive Web App</mark> makde with <mark>Angular</mark> and <mark>Firebase</mark>. <mark>GithubActions</mark> utilized for <mark>Continuous Integration</mark>.
+          <mark>Progressive Web App</mark> made with <mark>Angular</mark> and <mark>Firebase</mark>. <mark>GithubActions</mark> utilized for <mark>Continuous Integration</mark>.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
