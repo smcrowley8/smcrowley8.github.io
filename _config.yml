@@ -85,7 +85,7 @@ content:
             icon: fab fa-github
             url: https://github.com/smcrowley8/DataSci/tree/main/simpleSpeechEmotionalRecognition
         description: |
-          I utilized <mark>python</mark> and mainly the library <mark>librosa</mark>. 
+          Utilized <mark>python</mark> and mainly the library <mark>librosa</mark>. 
       - layout: top-middle
         title: AES project
         additional_links: 
@@ -93,8 +93,15 @@ content:
             icon: fab fa-github
             url: https://github.com/smcrowley8/myAES
         description: |
-          Python package utilizing <mark>poetry</mark> for package management and click for CLI entrypoint.
-          Repo utilizes circleCI for continuous developement. final CLI package is in progress.
+          Python package utilizing <mark>poetry</mark> for package management and <mark>click</mark> for <mark>CLI</mark> entrypoint.
+          Repo utilizes <mark>circleCI</mark> with <mark>GithubActions</mark> for continuous integration. final CLI package is in progress.
+      - layout: top-middle
+        title: Angular PWA
+        additional_links: 
+          - title: smcrowley8/angularPWA
+            url: https://admin-lt-pwa.web.app
+        description: |
+          <mark>Progressive Web App</mark> makde with <mark>Angular</mark> and <mark>Firebase</mark>. <mark>GithubActions</mark> utilized for <mark>Continuous Integration</mark>.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
