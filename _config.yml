@@ -48,9 +48,9 @@ github_username:  smcrowley8
 # about_title: About Me
 about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my names Sean. I'm a software engineer with most of my industry experience surrounding software test engineering.
+  Driven and efficient worker. Adaptable and uses every opportunity to learn.
 
-  I am most skilled in: <mark>Continuous Integration</mark> 
+  Most skilled in: <mark>Continuous Integration</mark> 
 
   My other tech skills include
   - <mark>python</mark>           
@@ -61,6 +61,28 @@ about_content: | # this will include new lines to allow paragraphs
   - <mark>docker</mark>
 
 content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Narrative Science
+        link: https://narrativescience.com/
+        # link_text: https://narrativescience.com/
+        sub_title: Software test Engineer
+        caption: September 2021 - Present
+        quote: >
+          "Data Storytelling can make the world a better place. We want to see our technology used for good because we know it can make a tremendous social impact."
+        description: | # this will include new lines to allow paragraphs
+            Worked with an amazing team on keeping our automated e2e, integration, and contract tests up to date with the products developement. 
+            
+            Used <mark>Gherkin</mark> with python to make writing tests easier. Worked with <mark>AWS</mark> and <mark>docker</mark> for integrating and testing changes in a cloud based system.
+            
+
+            Automated an app auditting process using <mark>AWS CloudWatch</mark>.
+
+            Developed a CLI runnable linter to be run as part of a test in our continous integration pipeline
+
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -102,22 +124,26 @@ content:
         link: https://admin-lt-pwa.web.app
         additional_links: 
         description: |
-          <mark>Progressive Web App</mark> made with <mark>Angular</mark> and <mark>Firebase</mark>. <mark>GithubActions</mark> utilized for <mark>Continuous Integration</mark>.
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Narrative Science
-        link: https://narrativescience.com/
-        # link_text: https://narrativescience.com/
-        sub_title: Software test Engineer
-        caption: September 2021 - Present
-        quote: >
-          "Data Storytelling can make the world a better place. We want to see our technology used for good because we know it can make a tremendous social impact."
-        description: | # this will include new lines to allow paragraphs
-            Worked with an amazing team on keeping our automated e2e, integration, and contract tests up to date with the products developement. 
-            
-            Used <mark>Gherkin</mark> with python to make writing tests easier. Worked with <mark>AWS</mark> and <mark>docker</mark> for integrating and testing changes in a cloud based system.
+          <mark>Progressive Web App</mark> made with <mark>Angular</mark> and <mark>Firebase</mark>. 
+          
+          <mark>GithubActions</mark> utilized for <mark>Continuous Integration</mark>.
+
+          <mark>Firebase</mark> utilized for real-time-databasing, and hosting.
+
+          (in-progress)
+      
+      - layout: top-middle
+        title: Clock in app
+        link_text: link
+        link: https://woodstimeclock.web.app
+        additional_links: 
+        description: |
+          <mark>Progressive Web App</mark> made with <mark>HTML/JavaScript</mark> and <mark>Firebase</mark>. 
+
+          <mark>Firebase</mark> utilized for user authentication, real-time-databasing, and hosting.
+
+          (in-progress)
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
