@@ -115,9 +115,30 @@ content:
             icon: fab fa-github
             url: https://github.com/smcrowley8/myAES
         description: |
-          Python package utilizing <mark>poetry</mark> for package management and <mark>click</mark> for <mark>CLI</mark> entrypoint.
+          Python package utilizing:
           
-          Repo utilizes <mark>circleCI</mark> with <mark>GithubActions</mark> for continuous integration. final CLI package is in progress.
+            - <mark>poetry</mark> for package management. 
+            - <mark>click</mark> for CLI entrypoint.
+            - <mark>circleCI</mark> with <mark>GithubActions</mark> for continuous integration.
+            
+          final CLI package is in progress.
+      - layout: top-middle
+        title: Settlers of Catan AI
+        link: https://smcrowley8.github.io/katan-ai
+        link_text: documentation
+        additional_links: 
+          - title: smcrowley8/katan-ai
+            icon: fab fa-github
+            url: https://github.com/smcrowley8/katan-ai
+        description: |
+          Python package utilizing:
+          
+            - <mark>poetry</mark> for package management. 
+            - <mark>pdoc3</mark> for documentation.          
+            - <mark>click</mark> for CLI entrypoint.
+            - <mark>circleCI</mark> with <mark>GithubActions</mark> for continuous integration.
+            
+          final package is in progress.
       - layout: top-middle
         title: Angular PWA
         link_text: link
