@@ -73,43 +73,31 @@ content:
         quote: >
           "Data Storytelling can make the world a better place. We want to see our technology used for good because we know it can make a tremendous social impact."
         description: | # this will include new lines to allow paragraphs
-            Worked with an amazing team on keeping our automated e2e, integration, and contract tests up to date with the products developement. 
+            Worked with an amazing team on keeping our automated e2e, integration, and contract tests up to date with product developement. 
             
-            Used <mark>Gherkin</mark> with python to make writing tests easier. Worked with <mark>AWS</mark> and <mark>docker</mark> for integrating and testing changes in a cloud based system.
+              - Used <mark>Gherkin</mark> with <mark>python</mark> to make writing tests easier. Worked with <mark>AWS</mark> and <mark>docker</mark> for integrating and testing changes in a cloud based system.
             
+              - Automated an app auditting process using <mark>AWS CloudWatch</mark>.
 
-            Automated an app auditting process using <mark>AWS CloudWatch</mark>.
-
-            Developed a CLI runnable linter to be run as part of a test in our continous integration pipeline
+              - Developed a CLI runnable linter to be run as part of a test in our continous integration pipeline
 
 
-  - title: Projects # Title for the section
+  - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Chat Bot
-        link: https://github.com/smcrowley8/DataSci/blob/main/ChatBot/ChatBot_howTo.ipynb
-        link_text: link
-        additional_links:
-          - title: smcrowley8/DataSci
-            icon: fab fa-github
-            url: https://github.com/smcrowley8/DataSci/tree/main/ChatBot
-        description: |
-          Chat bot made with <mark>python</mark>. Libraries: <mark>nltk</mark> and <mark>keras</mark> utilized for nlp and model creation/training.
-          
-          UI made with <mark>tkinter</mark>.
-      - layout: top-middle
-        title: Speech Analysis
-        link: https://github.com/smcrowley8/DataSci/blob/main/simpleSpeechEmotionalRecognition/recognize%20emotion%20from%20speech%20audio.ipynb
-        link_text: link
-        additional_links:
-          - title:  smcrowley8/DataSci
-            icon: fab fa-github
-            url: https://github.com/smcrowley8/DataSci/tree/main/simpleSpeechEmotionalRecognition
-        description: |
-          Utilized <mark>python</mark> and the library <mark>librosa</mark>. 
+      - layout: left
+        title: East Stroudsburg University
+        caption: 2017 - 2021
+        sub_title: B.S. Computer Science, B.S. Applied Mathematics
+
+        
+  - title: Projects # Title for the section
+    layout: list 
+    content:
       - layout: top-middle
         title: AES project
+        link: https://smcrowley8.github.io/myAES
+        link_text: documentation
         additional_links: 
           - title: smcrowley8/myAES
             icon: fab fa-github
@@ -118,10 +106,13 @@ content:
           Python package utilizing:
           
             - <mark>poetry</mark> for package management. 
+            - <mark>gitpages</mark> for documentation.          
             - <mark>click</mark> for CLI entrypoint.
             - <mark>circleCI</mark> with <mark>GithubActions</mark> for continuous integration.
             
-          final CLI package is in progress.
+          final package in progress.
+
+
       - layout: top-middle
         title: Settlers of Catan AI
         link: https://smcrowley8.github.io/katan-ai
@@ -134,11 +125,13 @@ content:
           Python package utilizing:
           
             - <mark>poetry</mark> for package management. 
-            - <mark>pdoc3</mark> for documentation.          
+            - <mark>gitpages</mark> for documentation.          
             - <mark>click</mark> for CLI entrypoint.
             - <mark>circleCI</mark> with <mark>GithubActions</mark> for continuous integration.
             
-          final package is in progress.
+          final package in progress.
+
+
       - layout: top-middle
         title: Angular PWA
         link_text: link
@@ -166,13 +159,31 @@ content:
           (in-progress)
 
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: East Stroudsburg University
-        caption: 2017 - 2021
-        sub_title: B.S. Computer Science, B.S. Applied Mathematics
+      - layout: top-middle
+        title: Chat Bot
+        link: https://github.com/smcrowley8/DataSci/blob/main/ChatBot/ChatBot_howTo.ipynb
+        link_text: link
+        additional_links:
+          - title: smcrowley8/DataSci
+            icon: fab fa-github
+            url: https://github.com/smcrowley8/DataSci/tree/main/ChatBot
+        description: |
+          Chat bot made with <mark>python</mark>. Libraries: <mark>nltk</mark> and <mark>keras</mark> utilized for nlp and model creation/training.
+          
+          UI made with <mark>tkinter</mark>.
+
+
+      - layout: top-middle
+        title: Speech Analysis
+        link: https://github.com/smcrowley8/DataSci/blob/main/simpleSpeechEmotionalRecognition/recognize%20emotion%20from%20speech%20audio.ipynb
+        link_text: link
+        additional_links:
+          - title:  smcrowley8/DataSci
+            icon: fab fa-github
+            url: https://github.com/smcrowley8/DataSci/tree/main/simpleSpeechEmotionalRecognition
+        description: |
+          Utilized <mark>python</mark> and the library <mark>librosa</mark>. 
+
         
 
 # Footer
