@@ -95,6 +95,20 @@ content:
     layout: list 
     content:
       - layout: top-middle
+        title: Master Caster site
+        link_text: link
+        link: https://master-caster.web.app
+        additional_links: 
+        description: |
+          <mark>Web App</mark> made with <mark>Angular</mark>, <mark>Material</mark>, and <mark>Firebase</mark>. 
+          
+          <mark>GithubActions</mark> utilized for <mark>Continuous Integration</mark>.
+
+          <mark>Firebase</mark> utilized for user authentication, real-time-databasing, and hosting.
+
+          (in-progress)
+
+      - layout: top-middle
         title: AES project
         link: https://smcrowley8.github.io/myAES
         link_text: documentation
