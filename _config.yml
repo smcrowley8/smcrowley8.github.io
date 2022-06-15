@@ -64,20 +64,41 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+
+      - layout: left
+        title: Datirium, LLC
+        link: https://scidap.com/
+        # link_text: https://narrativescience.com/
+        sub_title: Full Stack Developer
+        caption: March 2022 - Present
+        description: | # this will include new lines to allow paragraphs
+            
+              - Utilized a tech stack involving <mark>Digital Ocean</mark>, <mark>Meteor</mark>, <mark>NestJS</mark>, and <mark>Angular</mark>
+            
+              - Worked on a cloud based system
+
+              - Utilize teleport for working on satellite machines in a distributed system architecture
+
+              - Manage Jira and Confluence pages
+
+              - Automate doc page generation and enforce documentation coverage for pull requests
+
+              - Implement user requested features
+
       - layout: left
         title: Narrative Science
         link: https://narrativescience.com/
         # link_text: https://narrativescience.com/
         sub_title: Software test Engineer
-        caption: September 2021 - Present
+        caption: September 2021 - December 2021
         quote: >
           "Data Storytelling can make the world a better place. We want to see our technology used for good because we know it can make a tremendous social impact."
         description: | # this will include new lines to allow paragraphs
-            Worked with an amazing team on keeping our automated e2e, integration, and contract tests up to date with product developement. 
+            Worked with an amazing team on keeping our automated e2e, integration, and contract tests up to date with product developement
             
-              - Used <mark>Gherkin</mark> with <mark>python</mark> to make writing tests easier. Worked with <mark>AWS</mark> and <mark>docker</mark> for integrating and testing changes in a cloud based system.
+              - Used <mark>Gherkin</mark> with <mark>python</mark> to make writing tests easier. Worked with <mark>AWS</mark> and <mark>docker</mark> for integrating and testing changes in a cloud based system
             
-              - Automated an app auditting process using <mark>AWS CloudWatch</mark>.
+              - Automated an app auditting process using <mark>AWS CloudWatch</mark>
 
               - Developed a CLI runnable linter to be run as part of a test in our continous integration pipeline
 
@@ -87,7 +108,7 @@ content:
     content:
       - layout: left
         title: East Stroudsburg University
-        caption: 2017 - 2021
+        caption: 2017 - 2022
         sub_title: B.S. Computer Science, B.S. Applied Mathematics
 
         
@@ -147,19 +168,6 @@ content:
           final package in progress.
 
 
-      - layout: top-middle
-        title: Angular PWA
-        link_text: link
-        link: https://admin-lt-pwa.web.app
-        additional_links: 
-        description: |
-          <mark>Progressive Web App</mark> made with <mark>Angular</mark> and <mark>Firebase</mark>. 
-          
-          <mark>GithubActions</mark> utilized for <mark>Continuous Integration</mark>.
-
-          <mark>Firebase</mark> utilized for real-time-databasing, and hosting.
-
-          (in-progress)
       
       - layout: top-middle
         title: Clock in app
