@@ -77,13 +77,15 @@ content:
             
               - Worked on a cloud based system
 
-              - Utilize teleport for working on satellite machines in a distributed system architecture
+              - Utilized teleport for working on satellite machines in a distributed system architecture
 
-              - Manage Jira and Confluence pages
+              - Managed Jira and Confluence pages
 
-              - Automate doc page generation and enforce documentation coverage for pull requests
+              - Automated doc page generation and enforced documentation coverage for pull requests
 
-              - Implement user requested features
+              - Implemented user requested features
+
+              - Refactored pub/sub api to restful where doing so optimized performance
 
       - layout: left
         title: Narrative Science
