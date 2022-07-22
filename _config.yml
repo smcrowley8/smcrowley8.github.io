@@ -17,12 +17,12 @@ darkmode: false
 # Social links
 # twitter_username: 
 github_username:  smcrowley8
-# stackoverflow_username: "00000001"
+stackoverflow_username: "11616708"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: 
-# linkedin_username: 
+linkedin_username: "sean-m-crowley"
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: 
@@ -71,7 +71,7 @@ content:
         # link_text: https://narrativescience.com/
         sub_title: Full Stack Developer
         caption: March 2022 - Present
-        description: | # this will include new lines to allow paragraphs
+        description: | 
             
               - Utilized a tech stack involving <mark>Digital Ocean</mark>, <mark>Meteor</mark>, <mark>NestJS</mark>, and <mark>Angular</mark>
 
@@ -91,7 +91,7 @@ content:
         caption: September 2021 - December 2021
         quote: >
           "Data Storytelling can make the world a better place. We want to see our technology used for good because we know it can make a tremendous social impact."
-        description: | # this will include new lines to allow paragraphs
+        description: | 
             Worked with an amazing team on keeping our automated e2e, integration, and contract tests up to date with product developement
             
               - Used <mark>Gherkin</mark> with <mark>python</mark> to make writing tests easier. Worked with <mark>AWS</mark> and <mark>docker</mark> for integrating and testing changes in a cloud based system
@@ -101,7 +101,7 @@ content:
               - Developed a CLI runnable linter to be run as part of a test in our continous integration pipeline
 
 
-  - title: Education # Title for the section
+  - title: Education 
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -110,7 +110,7 @@ content:
         sub_title: B.S. Computer Science, B.S. Applied Mathematics
 
         
-  - title: Projects # Title for the section
+  - title: Projects 
     layout: list 
     content:
       - layout: top-middle
