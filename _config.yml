@@ -74,18 +74,14 @@ content:
         description: | # this will include new lines to allow paragraphs
             
               - Utilized a tech stack involving <mark>Digital Ocean</mark>, <mark>Meteor</mark>, <mark>NestJS</mark>, and <mark>Angular</mark>
-            
-              - Worked on a cloud based system
 
-              - Utilized teleport for working on satellite machines in a distributed system architecture
+              - Worked in a distributed systems architecture
 
               - Managed Jira and Confluence pages
 
-              - Automated doc page generation and enforced documentation coverage for pull requests
+              - Automated documentation page generation and enforced documentation coverage for pull requests
 
               - Implemented user requested features
-
-              - Refactored pub/sub api to restful where doing so optimized performance
 
       - layout: left
         title: Narrative Science
