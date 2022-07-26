@@ -17,7 +17,7 @@ darkmode: false
 # Social links
 # twitter_username: 
 github_username:  smcrowley8
-stackoverflow_username: "11616708"
+# stackoverflow_username: "11616708"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
@@ -53,7 +53,8 @@ about_content: | # this will include new lines to allow paragraphs
   Most skilled in: <mark>Continuous Integration</mark> 
 
   My other tech skills include
-  - <mark>python</mark>           
+  - <mark>python</mark>        
+  - <mark>TypeScript</mark>   
   - <mark>c++</mark>
   - <mark>git</mark>              
   - <mark>AWS</mark>
@@ -67,8 +68,8 @@ content:
 
       - layout: left
         title: Datirium, LLC
-        link: https://scidap.com/
-        # link_text: https://narrativescience.com/
+        link: https://datirium.com/ # https://scidap.com/
+        link_text: datirium.com
         sub_title: Full Stack Developer
         caption: March 2022 - Present
         description: | 
