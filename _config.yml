@@ -53,13 +53,14 @@ about_content: | # this will include new lines to allow paragraphs
   Most skilled in: <mark>Continuous Integration</mark> 
 
   My other tech skills include
-  - <mark>python</mark>        
   - <mark>TypeScript</mark>   
-  - <mark>c++</mark>
+  - <mark>python</mark>        
   - <mark>git</mark>              
-  - <mark>AWS</mark>
+  - <mark>bash</mark>
   - <mark>firebase</mark>         
   - <mark>docker</mark>
+  - <mark>c++</mark>
+  - <mark>AWS</mark>
 
 content:
   - title: Experience # Title for the section
@@ -71,18 +72,27 @@ content:
         link: https://datirium.com/ # https://scidap.com/
         link_text: datirium.com
         sub_title: Full Stack Developer
-        caption: March 2022 - Present
+        caption: March 2022 - June 2025
         description: | 
-            
-              - Utilized a tech stack involving <mark>Digital Ocean</mark>, <mark>Meteor</mark>, <mark>NestJS</mark>, and <mark>Angular</mark>
 
               - Worked in a distributed systems architecture
 
-              - Managed Jira and Confluence pages
+              - Managed Confluence pages and Jira issues according to Agile processes
+
+              - Worked across multiple phases of the software development life cycle within multiple
+                projects to: design, code, test, and document software requirements for new or enhanced
+                systems
 
               - Automated documentation page generation and enforced documentation coverage for pull requests
 
-              - Implemented user requested features
+              - Worked closely with Product Management and Clients to understand the business
+                requirements and prepare high level tasks for design and development
+              
+              - Provided technical guidance and shared knowledge of design patterns and best practices to
+                other team members
+              
+              - Collaborated with team members and stakeholders to refine solutions, and promote sharing
+                of ideas
 
       - layout: left
         title: Narrative Science
@@ -113,7 +123,19 @@ content:
         
   - title: Projects 
     layout: list 
-    content:
+    content:  
+      - layout: top-middle
+        title: Online Game website
+        link_text: link
+        link: https://board-games-3c679.web.app/
+        additional_links: 
+        description: |
+          <mark>Web App</mark> made with <mark>nx workspaces (angular)</mark>, <mark>Clarity UI</mark>, <mark>Material</mark>, and <mark>Firebase</mark>. 
+          
+          <mark>GithubActions</mark> utilized for <mark>Continuous Integration</mark>.
+
+          This site is a personal project I'll be fleshing out in order to host online games, and document the development process for those games.
+      
       - layout: top-middle
         title: Master Caster site
         link_text: link
@@ -127,7 +149,7 @@ content:
           <mark>Firebase</mark> utilized for user authentication, real-time-databasing, and hosting.
 
           This site is going to act as a dev log and download center for an in progress game.
-          (in-progress)
+          (in-progress) (currently being redeveloped with a different tech stack)
 
       - layout: top-middle
         title: AES project
@@ -145,7 +167,6 @@ content:
             - <mark>click</mark> for CLI entrypoint.
             - <mark>circleCI</mark> with <mark>GithubActions</mark> for continuous integration.
             
-          final package in progress.
 
 
       - layout: top-middle
@@ -164,21 +185,9 @@ content:
             - <mark>click</mark> for CLI entrypoint.
             - <mark>circleCI</mark> with <mark>GithubActions</mark> for continuous integration.
             
-          final package in progress.
 
 
       
-      - layout: top-middle
-        title: Clock in app
-        link_text: link
-        link: https://woodstimeclock.web.app
-        additional_links: 
-        description: |
-          <mark>Progressive Web App</mark> made with <mark>HTML/JavaScript</mark> and <mark>Firebase</mark>. 
-
-          <mark>Firebase</mark> utilized for user authentication, real-time-databasing, and hosting.
-
-          (in-progress)
 
 
       - layout: top-middle
@@ -188,9 +197,9 @@ content:
         additional_links:
           - title: smcrowley8/DataSci
             icon: fab fa-github
-            url: https://github.com/smcrowley8/DataSci/tree/main/ChatBot
+            url: https://github.com/smcrowley8/DataSci/tree/main/ChatBot/ChatBot_howTo.ipynb
         description: |
-          Chat bot made with <mark>python</mark>. Libraries: <mark>nltk</mark> and <mark>keras</mark> utilized for nlp and model creation/training.
+          A non-LLM Chat bot made with <mark>python</mark>. Libraries: <mark>nltk</mark> and <mark>keras</mark> utilized for nlp and model creation/training.
           
           UI made with <mark>tkinter</mark>.
 
