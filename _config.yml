@@ -73,6 +73,8 @@ content:
         link_text: datirium.com
         sub_title: Full Stack Developer
         caption: March 2022 - June 2025
+        quote: >
+          "Expert Bioinformatics. CRO-Standard Analytics. Reliable Results. Agile Delivery."
         description: | 
 
               - Worked in a distributed systems architecture
@@ -130,12 +132,26 @@ content:
         link: https://board-games-3c679.web.app/
         additional_links: 
         description: |
-          <mark>Web App</mark> made with <mark>nx workspaces (angular)</mark>, <mark>Clarity UI</mark>, <mark>Material</mark>, and <mark>Firebase</mark>. 
+          <mark>Web App</mark> made with <mark>nx workspaces (angular)</mark>, <mark>Clarity UI</mark>, and <mark>Firebase</mark>. 
           
           <mark>GithubActions</mark> utilized for <mark>Continuous Integration</mark>.
 
           This site is a personal project I'll be fleshing out in order to host online games, and document the development process for those games.
       
+    content:  
+      - layout: top-middle
+        title: Desktop LLM App
+        link_text: link
+        link: https://github.com/smcrowley8/desktop-llm-app/releases
+        additional_links: 
+        description: |
+          <mark>Desktop App</mark> made with <mark>Electron</mark>, <mark>Angular</mark>, <mark>primeNG UI</mark>, <mark>NestJS</mark>, <mark>sql</mark>, and <mark>Ollama</mark>. 
+          
+          <mark>GithubActions</mark> utilized for <mark>Continuous Integration</mark>.
+
+          This desktop app is mostly a proof of concept and template for myself so I can make desktop apps with llms built into them. Ideally, this will turn into app for managing your locally run AI agents and their tasks.
+          The repo is private, but builds will be stored elsewhere eventually
+          
       - layout: top-middle
         title: Master Caster site
         link_text: link
